@@ -1,0 +1,128 @@
+.header_logo .logo {
+    object-fit: contain;
+}
+
+.header_nav {
+    margin-top: 10px !important;
+}
+
+.enq-button {
+    background: #234a44;
+    color: #fff;
+    padding: 6px 27px;
+    border-radius: 10px;
+}
+
+ /* Modal Background Overlay */
+ .modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+/* Modal Box */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1001;
+}
+
+.modal-header {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.modal-header p {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.modal-header .close-btn {
+    background: none;
+    border: none;
+    font-size: 34px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.modal-body {
+    margin-bottom: 20px;
+}
+
+.modal-body label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.modal-body input,
+.modal-body textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.modal-body textarea {
+    resize: none;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.modal-footer button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-footer .submit-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-footer .close-btn {
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Button to trigger the modal */
+
+@media screen and (max-width: 768px) {
+    .header_logo .logo {
+        object-fit: contain;
+        height: auto;
+        width: 122px;
+    }
+}
