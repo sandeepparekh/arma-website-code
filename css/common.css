@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 991.98px) {
     .section--nopb {
-        padding: 31px 0 0 1 !important;
+        padding: 31px 0 0 !important;
     }
 }
 
