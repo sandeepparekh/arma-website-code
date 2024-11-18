@@ -29,6 +29,9 @@
     .section--nopb {
         padding: 31px 0 0 !important;
     }
+    .section {
+        padding: 75px 0 25px 0 !important;
+    }
 }
 
 /* Modal Box */
