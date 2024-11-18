@@ -25,6 +25,12 @@
     z-index: 999999;
 }
 
+@media screen and (min-width: 991.98px) {
+    .section--nopb {
+        padding: 31px 0 0 1 !important;
+    }
+}
+
 /* Modal Box */
 .modal {
     position: fixed;
